@@ -6,7 +6,6 @@ const RepoPage = ({ params: { name } }) => {
     <div className='card'>
       <h2>{name}</h2>
       <p>Repo Details</p>
-
       <Link href='/code/repos' className='btn btn-back'>
         Back to Repositories
       </Link>
