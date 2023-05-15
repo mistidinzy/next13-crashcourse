@@ -3,7 +3,7 @@ import Link from 'next/link';
 async function fetchRepoContents(name) {
   const response = await fetch(
     'https://api.github.com/repos/mistidinzy/${name}/contents',
-    { next: { revalidate: 60 * 60 * 24 } }
+    { next: { revalidate: 60 } }
   );
 
   await new Promise((resolve) => setTimeout(resolve, 1000));

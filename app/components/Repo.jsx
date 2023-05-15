@@ -4,7 +4,7 @@ async function fetchRepo(name) {
   const response = await fetch(
     'https://api.github.com/repos/mistidinzy/${name}',
     {
-      next: { revalidate: 60 * 60 * 24 },
+      next: { revalidate: 60 },
     }
   );
 

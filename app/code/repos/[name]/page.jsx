@@ -6,14 +6,12 @@ import RepoDirs from '@/app/components/RepoDirs';
 const RepoPage = ({ params: { name } }) => {
   return (
     <div className='card'>
-      <h2>{name}</h2>
-      <p>Repo Details</p>
       <Link href='/code/repos' className='btn btn-back'>
         Back to Repositories
       </Link>
-      <Suspense fallback={<div>Loading repo...</div>}>
-        <Repo name={name} />
-      </Suspense>
+      <h2>Repo Name: {name}</h2>
+      <Repo name={name} />
+      <Suspense fallback={<div>Loading repo...</div>}></Suspense>
       <Suspense fallback={<div>Loading directories...</div>}>
         <RepoDirs name={name} />
       </Suspense>
