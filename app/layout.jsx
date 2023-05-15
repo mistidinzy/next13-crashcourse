@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Next13 Crash',
+  title: 'mDnzy | Next13 Tutorial',
   description: 'Web development tutorial',
   keywords:
     'web development, web design, nextjs, react, tutorial, brad traversy, crash course',
