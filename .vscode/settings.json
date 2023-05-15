@@ -1,0 +1,10 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "editor.screenReaderAnnounceInlineSuggestion": false,
+  "editor.quickSuggestionsDelay": 8,
+  "editor.formatOnSave": true,
+  "editor.suggest.matchOnWordStartOnly": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "github.copilot.editor.enableAutoCompletions": false
+}
