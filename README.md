@@ -9,19 +9,17 @@
 
 ---
 
-#### *Resources and Links!:*
+> *Hello World! The official React docs no longer recommend using `create-react-app`. So in order to get more familiar with NextJS, I built this project from scratch, while following along with these resources from Brad Traversy⤵️*
 
-***I built this project from scratch, while following along with these resources from Brad Traversy ⤵️***
-
-### [Written Walkthrough](https://bit.ly/3pN7ax1)
-
-### [YouTube Video Tutorial](https://youtu.be/Y6KDk5iyrYE)
+| Resources & Links! | |
+|---|---|
+| [Written Walkthrough](https://bit.ly/3pN7ax1) | [YouTube Video Tutorial](https://youtu.be/Y6KDk5iyrYE) |
 
 ---
 
 ### **Getting Started**
 
-### *First, create a new NextJS project.*
+### *To create a new NextJS project:*
 
 ```zsh
 npx create-next-app@latest
@@ -39,7 +37,7 @@ yarn dev
 
 ---
 
-### **Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.**
+### *Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.*
 
 ---
 
