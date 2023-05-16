@@ -1,6 +1,10 @@
 import Link from 'next/link';
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa';
 
+export const metadata = {
+  title: 'mDnzy | Repos Page',
+};
+
 async function fetchRepos() {
   const response = await fetch(
     'https://api.github.com/users/mistidinzy/repos',
