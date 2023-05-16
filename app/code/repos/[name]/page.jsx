@@ -3,6 +3,10 @@ import Link from 'next/link';
 import Repo from '@/app/components/Repo';
 import RepoDirs from '@/app/components/RepoDirs';
 
+export const metadata = {
+  title: 'mDnzy | Repo Page',
+};
+
 const RepoPage = ({ params: { name } }) => {
   return (
     <div className='card'>

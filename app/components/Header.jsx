@@ -1,16 +1,11 @@
-// 'use client';
-// import { useState } from 'react'
-
 import Link from 'next/link';
 
 const Header = () => {
   return (
     <header className='header'>
       <div className='container'>
-        <h1>Next13 Crash Course Tutorial</h1>
-        <div className='logo'>
-          <Link href='/'>Traversy Media</Link>
-        </div>
+        <h1>Next.js 13</h1>
+        <h2>Crash Course Project</h2>
         <div className='links'>
           <Link href='/'>Home</Link>
           <Link href='/about'>About</Link>
